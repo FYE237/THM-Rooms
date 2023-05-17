@@ -27,7 +27,8 @@ SOmetimes users don't change the default configuration. So it can be helpful to 
 3. DOM-Based XSS - DOM stands for Document Object Model and is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. A web page is a document and this document can be either displayed in the browser window or as the HTML source.
 
     ### XSS Payloads
-* Popup's (<script>alert(“Hello World”)</script>) - Creates a Hello World message popup on a users browser.
+* Popup's ( `<script>alert(“Hello World”)</script> `) - Creates a Hello World message popup on a users browser. or We will be using the iframe element with a javascript alert tag: 
+`<iframe src="javascript:alert(`xss`)">`
 * Writing HTML (document.write) - Override the website's HTML to add your own (essentially defacing the entire page).
 * XSS Keylogger (http://www.xss-payloads.com/payloads/scripts/simplekeylogger.js.html) - You can log all keystrokes of a user, capturing their password and other sensitive information they type into the webpage.
 * Port scanning (http://www.xss-payloads.com/payloads/scripts/portscanapi.js.html) - A mini local port scanner (more information on this is covered in the TryHackMe XSS room).
