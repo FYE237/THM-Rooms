@@ -1,5 +1,4 @@
 #   NOTES SUR LA ROOM 3
-
 ### Concernant la tâche 5 - question 2
 Une fois que l'exploit a marché. on doit reprendre le control en utilisant le shell meterpreter. Donc on lance un exploit qui permet d'avoir accès au shell par meterpreter
 

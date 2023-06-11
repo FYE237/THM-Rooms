@@ -19,7 +19,9 @@ Example :
         -P	           | indicates a list of passwords
         _________________________________
         -t	           | sets the number of threads to spawn   
+or
 
+* `ssh` : `hydra -t 16 -l USERNAME -P /usr/share/wordlists/rockyou.txt -vV 10.10.10.207 ssh`
 
 *   `Post web form` : sudo hydra -l <username> -P <wordlist> 10.10.12.179 http-post-form "<path>:<login_credentials>:<invalid_response>"
 
