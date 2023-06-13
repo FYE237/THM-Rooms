@@ -28,6 +28,13 @@ Followed by the tags:
 
 - p [port] : to specify the portMethod Breakdown
 
+- P : SPecify the password of the user
+
+- L : list all the shares.
+
+Example : `smbclient -L 10.10.91.31 -U 'svc-admin' -p 'management2005'`
+
+
 
 ## 2. Enumerating Telnet
 
