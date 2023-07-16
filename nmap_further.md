@@ -58,7 +58,7 @@ Installing New Scripts
 
 ### Notes sur le cas pratique : 
 Si les ping ne marchent pas.
-On peut faire des scans silencieux en supposant que les ports sont ouverts(Pn) . Par : nmap -Pn  -sX/sN/-sF -pa-b @IP  -vv(verbose)
+On peut faire des scans silencieux en supposant que tous les hosts sont connecté (Pn) . Par : nmap -Pn  -sX/sN/-sF -pa-b @IP  -vv(verbose)
 
 
 Si on voulait faire un scan syn on aurait utiliser -sS
